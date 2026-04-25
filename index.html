@@ -313,8 +313,10 @@
 
     const initialData = [
 
-        ["#warmup"], ["-", "Cat-Cow", "8"], ["-", "World's Greatest Stretch - L", "10"], ["-", "World's Greatest Stretch - R", "10"], ["-", "Hip Cars", "10"], ["-", "Powell Raise - L", "16"], ["-", "Powell Raise - R", "16"], ["#main"], ["-", "RDL", "44"], ["-", "Pull-up", "3x - 1111"], ["-", "Press", "3x - 1111"], ["-", "RDL", "44"], ["-", "Pull-up", "3x - 1111"], ["-", "Press", "3x - 1111"], ["-", "Walking Lunge", "44"], ["-", "KB Row", "28"], ["-", "KB Row", "28"], ["-", "Floor Press Strength", "10"], ["-", "Walking Lunge", "44"], ["-", "KB Row", "28"], ["-", "KB Row", "28"], ["-", "Floor Press Strength", "10"], ["#cooldown"], ["-", "Puppy Dolphin Pose", ""], ["-", "Straddle", ""], ["-", "Lizard - L", ""], ["-", "Lizard - R", ""], ["-", "Couch Stretch - L", ""], ["-", "Couch Stretch - R", ""], ["", "Shavasana", ""]
-        ];        
+        ["#warmup"], ["-", "cat-cow", ""], ["-", "powell raise lr", ""], ["-", "seated external rotation lr", ""], ["-", "halo lr", ""], ["-", "band shoulder dislocate", ""], ["#main"], ["-", "press", "3,06"], ["-", "row vol", "28,56"], ["-", "row vol", "28,56"], ["-", "press", "3,06"], ["-", "row vol", "28,56"], ["-", "row vol", "28,56"], ["-", "press", "3,06"], ["-", "row vol", "28,56"], ["-", "row vol", "28,56"], ["-", "floor press str", "10,2"], ["-", "face pull", "12,24"], ["-", "floor press str", "10,2"], ["-", "face pull", "12,24"], ["#10min snack"], ["-", "biceps", "20,4"], ["-", "tricepes", "20,4"], ["-", "lat shoulders", "16,32"], ["#cooldown"], ["-", "straddle", ""], ["-", "lizard - l", ""], ["-", "lizard - r", ""], ["-", "couch stretch - l", ""], ["-", "couch stretch - r", ""]
+        
+    
+    ];        
     function addExerciseRow(data = ["", "", ""]) {
         const grid = document.getElementById('exerciseGrid');
         const row = document.createElement('div');
